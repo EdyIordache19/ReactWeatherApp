@@ -1,10 +1,10 @@
 import './App.css';
 import React, {useCallback, useEffect, useState} from "react";
 import axios from "axios";
-import thermometerPic from './thermometer_new.png'
-import rainPic from './rain_new.png'
-import windPic from './wind_new.png'
-import pressurePic from './pressure_new.png'
+import thermometerPic from './icons/thermometer_new.png'
+import rainPic from './icons/rain_new.png'
+import windPic from './icons/wind_new.png'
+import pressurePic from './icons/pressure_new.png'
 let data;
 function CurrentWeather() {
     let tempText = data ? data.list[0].main.temp : 10;
